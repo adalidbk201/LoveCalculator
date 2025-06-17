@@ -7,7 +7,7 @@ function calculateLove(){
         const lovePorcentage= hash % 101
         document.getElementById('result').style.color='green'
         
-        document.getElementById('result').textContent=`TIENES UN ${lovePorcentage} DE COMPATIVILIDAD`
+        document.getElementById('result').textContent=`TIENES UN ${lovePorcentage} DE COMPATIBILIDAD`
     }else{
         document.getElementById('result').style.color='red'
 
